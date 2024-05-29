@@ -1,0 +1,13 @@
+<div id="<%= dom_id comment %>" class="neon-card my-5 p-5">
+  <p class="my-5">
+    <strong class="block font-medium mb-1 neon-text">Content:</strong>
+    <%= comment.content %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1 neon-text">Sentiment:</strong>
+    <%= comment.emoji_line %>
+  </p>
+
+  <%= link_to 'Show this comment', comment, class: 'neon-button mt-3 inline-block' %>
+</div>

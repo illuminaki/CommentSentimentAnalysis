@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.neon-text {
+  text-shadow: 0 0 5px #0915d0, 0 0 10px #0033b7, 0 0 15px #00e6ff, 0 0 20px #00e6ff;
+}
+
+.neon-button {
+  background: #1a1a1a;
+  border: 1px solid #00e6ff;
+  color: #00e6ff;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+  background: #00e6ff;
+  color: #1a1a1a;
+  box-shadow: 0 0 5px #00e6ff, 0 0 10px #00e6ff, 0 0 15px #00e6ff, 0 0 20px #00e6ff;
+}
+
+.neon-card {
+  background: rgba(34, 34, 34, 0.9);
+  border: 1px solid #00e6ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px #00e6ff, 0 0 10px #00e6ff, 0 0 15px #00e6ff;
+}
+.text-filter-gray{
+  filter: brightness(0.5);
+}

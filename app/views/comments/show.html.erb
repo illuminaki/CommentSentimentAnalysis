@@ -1,0 +1,16 @@
+<div class="neon-card p-5">
+  <h1 class="neon-text text-2xl mb-5">Comment Details</h1>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1 neon-text">Content:</strong>
+    <%= @comment.content %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1 neon-text">Sentiment:</strong>
+    <%= @comment.sentiment_description %>
+  </p>
+
+  <%= link_to 'Edit', edit_comment_path(@comment), class: 'neon-button mt-3 inline-block' %>
+  <%= link_to 'Back', comments_path, class: 'neon-button mt-3 inline-block' %>
+</div>
